@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4ed99a-e6d4-4079-8150-800de01dc3ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/mysql-connector-java-5.1.0-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/BatchInsert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/DbInsert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/DbQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/DbQuery2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/QueryStatement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/ScrollResultSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/dbtest.sql" />
-    </list>
+    <list default="true" id="eb4ed99a-e6d4-4079-8150-800de01dc3ae" name="Default" comment="" />
     <ignored path="WindowsProjectJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -221,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466864188045</updated>
-      <workItem from="1466864191544" duration="419000" />
+      <workItem from="1466864191544" duration="494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419000" />
+    <option name="totallyTimeSpent" value="494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
