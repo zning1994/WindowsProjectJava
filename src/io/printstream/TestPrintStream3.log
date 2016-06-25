@@ -1,0 +1,94 @@
+-----
+我的
+-----
+你的
+===Sun May 08 23:38:22 CST 2016===
+-----
+SSSS
+-----
+
+===Mon May 16 10:52:54 CST 2016===
+-----
+PACKAGE IO.PRINTSTREAM;
+-----
+
+-----
+/*
+-----
+功能：完成类似于日志的功能
+-----
+说明：(1)使用PRINTWRITER往文件里面写字符；(2)键盘输入功能的实现
+-----
+*/
+-----
+
+-----
+IMPORT JAVA.UTIL.*; 
+-----
+IMPORT JAVA.IO.*;
+-----
+
+-----
+PUBLIC CLASS TESTPRINTSTREAM3 {
+-----
+  PUBLIC STATIC VOID MAIN(STRING[] ARGS) {
+-----
+    STRING S = NULL;
+-----
+	
+-----
+    TRY {
+-----
+    	SYSTEM.SETIN(NEW FILEINPUTSTREAM("SRC/IO/PRINTSTREAM/TESTPRINTSTREAM3.JAVA"));
+-----
+        BUFFEREDREADER BR = NEW BUFFEREDREADER(NEW INPUTSTREAMREADER(SYSTEM.IN));
+-----
+    	FILEWRITER FW = NEW FILEWRITER("SRC/IO/PRINTSTREAM/TESTPRINTSTREAM3.LOG", TRUE);
+-----
+    	PRINTWRITER LOG = NEW PRINTWRITER(FW);
+-----
+
+-----
+      
+-----
+      WHILE ((S = BR.READLINE())!=NULL) {
+-----
+        IF(S.EQUALSIGNORECASE("EXIT")){
+-----
+			BREAK;
+-----
+		}
+-----
+        SYSTEM.OUT.PRINTLN(S.TOUPPERCASE());
+-----
+        LOG.PRINTLN("-----");
+-----
+        LOG.PRINTLN(S.TOUPPERCASE()); 
+-----
+        LOG.FLUSH();
+-----
+      }
+-----
+
+-----
+      LOG.PRINTLN("==="+NEW DATE()+"==="); 
+-----
+      LOG.FLUSH();
+-----
+      LOG.CLOSE();
+-----
+    } CATCH (IOEXCEPTION E) {
+-----
+      E.PRINTSTACKTRACE();
+-----
+    }
+-----
+  }
+-----
+}
+===Mon May 16 10:55:12 CST 2016===
+-----
+SSS
+-----
+SSSSSS
+===Mon May 16 11:01:14 CST 2016===
